@@ -10,11 +10,12 @@
   },
   "keywords": [
     "Firebase",
-    "fb",
-    "fb-copy",
-    "fb-move",
-    "fb-get",
-    "fb-set"
+    "CLI",
+    "brazier-copy",
+    "brazier-move",
+    "brazier-get",
+    "brazier-set",
+    "brazier-children"
   ],
   "author": "Harry Schmidt <me@goldibex.com>",
   "license": "ISC",
