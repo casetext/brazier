@@ -1,0 +1,29 @@
+{
+  "name": "brazier",
+  "version": "1.0.0",
+  "description": "Firebase data manipulation utilities.",
+  "bin": {
+    "brazier": "./bin/brazier.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Firebase",
+    "fb",
+    "fb-copy",
+    "fb-move",
+    "fb-get",
+    "fb-set"
+  ],
+  "author": "Harry Schmidt <me@goldibex.com>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "extend": "^2.0.1",
+    "firebase": "^2.2.7"
+  },
+  "devDependencies": {
+    "jasmine": "^2.3.1"
+  }
+}
