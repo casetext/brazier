@@ -31,7 +31,10 @@ program
         dieOnError(e);
       }
 
-      refs[0].set(jsonData, dieOnError);
+      refs[0].set(jsonData, function(err) {
+        dieOnError(err);
+        process.exit(0);
+      });
 
     });
 
